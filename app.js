@@ -8,7 +8,7 @@ async function recognizeSong() {
     const fakeSongData = {
         title: "Blinding Lights",
         artist: "The Weeknd",
-        albumArt: "https://link.to/album/art.jpg",
+        albumArt: "placeholder.jpg",  // Replace with dynamic image link
         lyrics: `I've been tryna call...`
     };
     
