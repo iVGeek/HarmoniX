@@ -1,0 +1,1 @@
+HarmoniX is a dynamic music and lyrics player that detects songs through the microphone, fetches real-time lyrics, and transforms your screen with a colorful AMOLED theme inspired by the album art. Built with HTML, CSS, and JavaScript, LyricWave brings a visually immersive experience to music playback.
