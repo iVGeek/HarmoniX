@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+/* Album Art Styling */
+.album-art-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Lyrics Styling */
+.lyrics-container {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Control Button */
+.controls button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #ff80ab;
+}
+
+/* Dynamic Monet Theme */
+body.dynamic-theme {
+    --primary-color: #1a1a1a;
+    --accent-color: #ff4081;
+}
+
+body.dynamic-theme .app-container {
+    background-color: var(--primary-color);
+}
+
+body.dynamic-theme .controls button {
+    background-color: var(--accent-color);
+}
